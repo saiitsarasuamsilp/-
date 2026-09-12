@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUNALIFE | Contact Us</title>
+    <!-- นำเข้า Font และ Icon จาก FontAwesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Kanit', sans-serif;
+        }
+
+        body {
+            /* พื้นหลังสีดำไล่ระดับโทนทองเข้ม หรูหรา */
+            background: radial-gradient(circle at center, #2b220d 0%, #111111 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            /* การ์ดสีดำโปร่งแสง ขอบสีทอง */
+            background: rgba(20, 20, 20, 0.85);
+            padding: 40px 30px;
+            border-radius: 24px;
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6), 0 0 20px rgba(212, 175, 55, 0.15);
+            backdrop-filter: blur(10px);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .logo-img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 2px solid #d4af37;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+        }
+
+        h1 {
+            color: #d4af37;
+            font-family: 'Playfair Display', 'Kanit', serif;
+            font-size: 28px;
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            /* ตัวหนังสือไล่สีทอง */
+            background: linear-gradient(135deg, #ffe599 0%, #d4af37 50%, #aa7c11 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p {
+            color: #cccccc;
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 30px;
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .link-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 14px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            color: #111;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid #ffd700;
+        }
+
+        /* ปุ่มไล่ระดับสีทองหรูหรา */
+        .gold-btn {
+            background: linear-gradient(135deg, #fff3a7 0%, #d4af37 50%, #b8860b 100%);
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.25);
+        }
+
+        .link-btn i {
+            font-size: 20px;
+        }
+
+        .link-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(252, 211, 77, 0.5);
+            background: linear-gradient(135deg, #ffffff 0%, #ffd700 50%, #d4af37 100%);
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #777777;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- รูปโลโก้ LUNALIFE -->
+        <img src="S__1695777.jpg" alt="LUNALIFE Logo" class="logo-img">
+        
+        <!-- ชื่อแบรนด์และสโลแกน -->
+        <h1>LUNALIFE</h1>
+        <p>ช่องทางการติดต่อและติดตามข่าวสาร</p>
+
+        <!-- ปุ่มลิงก์ติดต่อ -->
+        <div class="links-container">
+            <!-- Facebook -->
+            <a href="https://facebook.com/your-username" target="_blank" class="link-btn gold-btn">
+                <i class="fab fa-facebook-f"></i> Facebook Page
+            </a>
+
+            <!-- Line -->
+            <a href="https://line.me/ti/p/cLrjHZyFEr" target="_blank" class="link-btn gold-btn">
+                <i class="fab fa-line"></i> LINE Official
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/lunalife.clinic?stkn=ZGVoZmp4ang4aTE0&utm_source=qr" target="_blank" class="link-btn gold-btn">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+        </div>
+
+        <div class="footer">
+            © 2026 LUNALIFE. All rights reserved.
+        </div>
+    </div>
+
+</body>
+</html>
